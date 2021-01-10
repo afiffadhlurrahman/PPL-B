@@ -15,7 +15,7 @@ public class HTTPRequest {
         params.forEach((k, v) -> System.out.println(k + ": " + v));
 
         // respond dalam bentuk JSON Object dan JSON Array
-        String respond = "Hasil respond dari query";
+        String respond = "Hasil respond dari API";
         return respond;
     }
 
@@ -26,7 +26,7 @@ public class HTTPRequest {
         params.forEach((k, v) -> System.out.println(k + ": " + v));
 
         // respond dalam bentuk JSON Object dan JSON Array
-        String respond = "Hasil respond dari query";
+        String respond = "Hasil respond dari API";
         return respond;
     }
 }
