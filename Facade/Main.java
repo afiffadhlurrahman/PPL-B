@@ -6,7 +6,7 @@ public class Main {
 
         MaterialPrice matAPI = new MaterialPrice();
 
-        matAPI.getItemList("balok kayu", "100");
+        System.out.println(matAPI.getItemList("balok kayu", "100"));
     }
 
 }

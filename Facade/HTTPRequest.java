@@ -8,17 +8,25 @@ public class HTTPRequest {
         this.USER_AGENT = UA;
     }
 
-    public void sendGET(HashMap params) {
+    public String sendGET(HashMap params) {
         System.out.println("masuk sendGET");
         System.out.println("Isi params:");
         
         params.forEach((k, v) -> System.out.println(k + ": " + v));
+
+        // respond dalam bentuk JSON Object dan JSON Array
+        String respond = "Hasil respond dari query";
+        return respond;
     }
 
-    public void sendPOST(HashMap params) {
+    public String sendPOST(HashMap params) {
         System.out.print("masuk sendPOST");
         System.out.println("Isi params:");
         
         params.forEach((k, v) -> System.out.println(k + ": " + v));
+
+        // respond dalam bentuk JSON Object dan JSON Array
+        String respond = "Hasil respond dari query";
+        return respond;
     }
 }

@@ -4,7 +4,6 @@ public class MaterialAPI {
 
     private String oauth;
     private String host;
-    private String method;
 
     public MaterialAPI () {
         this.oauth = "API-KEY";
@@ -23,12 +22,6 @@ public class MaterialAPI {
         params.put("output_size", outputSize);
         params.put("item_name", item);
         params.put("type", "json");
-        String paramsh[] = new String[5];
-        paramsh[0] = this.oauth;
-        paramsh[1] = this.host;
-        paramsh[2] = outputSize;
-        paramsh[3] = item;
-        paramsh[4] = "json";
 
         return params;
     }
