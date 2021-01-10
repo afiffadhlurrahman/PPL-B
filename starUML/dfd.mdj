@@ -1,0 +1,3434 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAF26xg4XBgxRvg=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAF26xg4XBgyAl4=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26xoNexg4aYE=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26xoNexg2u24="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xoNfBg+dcQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26xoNexg4aYE="
+									},
+									"font": "Arial;13;0",
+									"left": 330,
+									"top": 157,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xoNfBg52gw=",
+									"_parent": {
+										"$ref": "AAAAAAF26xoNexg4aYE="
+									},
+									"font": "Arial;13;0",
+									"left": 330,
+									"top": 162,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "KLIEN",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xoNfBg6oV4=",
+									"_parent": {
+										"$ref": "AAAAAAF26xoNexg4aYE="
+									},
+									"font": "Arial;13;0",
+									"left": 120,
+									"top": -88,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 320,
+							"top": 152,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26xoNfBg52gw="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26xpNDhhFg08=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26xpNDhhDQcs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xpNDxhLm28=",
+									"_parent": {
+										"$ref": "AAAAAAF26xpNDhhFg08="
+									},
+									"font": "Arial;13;0",
+									"left": 818,
+									"top": 389,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xpNDhhGwFg=",
+									"_parent": {
+										"$ref": "AAAAAAF26xpNDhhFg08="
+									},
+									"font": "Arial;13;0",
+									"left": 818,
+									"top": 394,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "KARYAWAN",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xpNDhhH7Es=",
+									"_parent": {
+										"$ref": "AAAAAAF26xpNDhhFg08="
+									},
+									"font": "Arial;13;0",
+									"left": 488,
+									"top": -104,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 808,
+							"top": 384,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26xpNDhhGwFg="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26xx5nhhYFQ8=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26xx5nhhWRH0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xx5nhhZ2ts=",
+									"_parent": {
+										"$ref": "AAAAAAF26xx5nhhYFQ8="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 288,
+									"width": 93,
+									"height": 26,
+									"text": "Melihat ruang lingkup usaha",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xx5nhhaYns=",
+									"_parent": {
+										"$ref": "AAAAAAF26xx5nhhYFQ8="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 261,
+									"width": 93,
+									"height": 13,
+									"text": "1.0"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 312,
+							"top": 256,
+							"width": 113,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAF26xx5nhhZ2ts="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26xx5nhhaYns="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26xysjhhl/Ec=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26xysjhhj+Yk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xysjhhmpfQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26xysjhhl/Ec="
+									},
+									"font": "Arial;13;0",
+									"left": 594,
+									"top": 392,
+									"width": 67.92626953125,
+									"height": 39,
+									"text": "Membuat Laporan manajemen",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26xysjhhn/P4=",
+									"_parent": {
+										"$ref": "AAAAAAF26xysjhhl/Ec="
+									},
+									"font": "Arial;13;0",
+									"left": 594,
+									"top": 365,
+									"width": 67.92626953125,
+									"height": 13,
+									"text": "4.0"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 584,
+							"top": 360,
+							"width": 87.92626953125,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAF26xysjhhmpfQ="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26xysjhhn/P4="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26yEVPBh4LIY=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yEVPBh2grk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yEVPBh54yY=",
+									"_parent": {
+										"$ref": "AAAAAAF26yEVPBh4LIY="
+									},
+									"font": "Arial;13;0",
+									"left": 586,
+									"top": 552,
+									"width": 59.9853515625,
+									"height": 26,
+									"text": "Mengelola Proyek",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yEVPBh6RKo=",
+									"_parent": {
+										"$ref": "AAAAAAF26yEVPBh4LIY="
+									},
+									"font": "Arial;13;0",
+									"left": 586,
+									"top": 525,
+									"width": 59.9853515625,
+									"height": 13,
+									"text": "2.0"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 576,
+							"top": 520,
+							"width": 79.9853515625,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26yEVPBh54yY="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26yEVPBh6RKo="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26yG7jBiFh7E=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yG7jBiDqpU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yG7jBiGxh8=",
+									"_parent": {
+										"$ref": "AAAAAAF26yG7jBiFh7E="
+									},
+									"font": "Arial;13;0",
+									"left": 594,
+									"top": 160,
+									"width": 59.9853515625,
+									"height": 26,
+									"text": "Mengelola Keuangan",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yG7jBiHNA4=",
+									"_parent": {
+										"$ref": "AAAAAAF26yG7jBiFh7E="
+									},
+									"font": "Arial;13;0",
+									"left": 594,
+									"top": 133,
+									"width": 59.9853515625,
+									"height": 13,
+									"text": "3.0"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 584,
+							"top": 128,
+							"width": 79.9853515625,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26yG7jBiGxh8="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26yG7jBiHNA4="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAF26yMkuBiaUnI=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yMkuBiYcbo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yMkuBibr9Q=",
+									"_parent": {
+										"$ref": "AAAAAAF26yMkuBiaUnI="
+									},
+									"font": "Arial;13;0",
+									"left": 316,
+									"top": 394,
+									"width": 107,
+									"height": 13,
+									"text": "Data Proyek",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yMkuBic2/4=",
+									"_parent": {
+										"$ref": "AAAAAAF26yMkuBiaUnI="
+									},
+									"font": "Arial;13;0",
+									"left": 301,
+									"top": 394,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 296,
+							"top": 384,
+							"width": 137,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26yMkuBibr9Q="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26yMkuBic2/4="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAF26ySIQhjGkxM=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26ySIQRjEavA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26ySIQhjHK54=",
+									"_parent": {
+										"$ref": "AAAAAAF26ySIQhjGkxM="
+									},
+									"font": "Arial;13;0",
+									"left": 580,
+									"top": 274,
+									"width": 99,
+									"height": 13,
+									"text": "Data Keuangan",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26ySIQhjI2jE=",
+									"_parent": {
+										"$ref": "AAAAAAF26ySIQhjGkxM="
+									},
+									"font": "Arial;13;0",
+									"left": 565,
+									"top": 274,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 560,
+							"top": 264,
+							"width": 129,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26ySIQhjHK54="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26ySIQhjI2jE="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26yaGfBkB+Tk=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yaGfBj/0+o="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26yaGfRkCExk=",
+									"_parent": {
+										"$ref": "AAAAAAF26yaGfBkB+Tk="
+									},
+									"model": {
+										"$ref": "AAAAAAF26yaGfBj/0+o="
+									},
+									"font": "Arial;13;0",
+									"left": 793,
+									"top": 159,
+									"width": 122.8779296875,
+									"height": 13,
+									"alpha": -1.3734017284836622,
+									"distance": 10.198039027185569,
+									"hostEdge": {
+										"$ref": "AAAAAAF26yaGfBkB+Tk="
+									},
+									"edgePosition": 1,
+									"text": "Mengelola Keuangan"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26yG7jBiFh7E="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26xpNDhhFg08="
+							},
+							"lineStyle": 2,
+							"points": "856:384;856:176;663:176",
+							"nameLabel": {
+								"$ref": "AAAAAAF26yaGfRkCExk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26yahWRkMS3Q=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yahWRkKsqU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26yahWRkNdrI=",
+									"_parent": {
+										"$ref": "AAAAAAF26yahWRkMS3Q="
+									},
+									"model": {
+										"$ref": "AAAAAAF26yahWRkKsqU="
+									},
+									"font": "Arial;13;0",
+									"left": 609,
+									"top": 223,
+									"width": 57.8271484375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26yahWRkMS3Q="
+									},
+									"edgePosition": 1,
+									"text": "Input data"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26ySIQhjGkxM="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26yG7jBiFh7E="
+							},
+							"lineStyle": 2,
+							"points": "623:196;623:264",
+							"nameLabel": {
+								"$ref": "AAAAAAF26yahWRkNdrI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26ya3Cxkel3s=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26ya3CxkcDEI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26ya3CxkfHw0=",
+									"_parent": {
+										"$ref": "AAAAAAF26ya3Cxkel3s="
+									},
+									"model": {
+										"$ref": "AAAAAAF26ya3CxkcDEI="
+									},
+									"font": "Arial;13;0",
+									"left": 543,
+									"top": 304,
+									"width": 168.416015625,
+									"height": 13,
+									"alpha": 2.9764431231346746,
+									"distance": 18.24828759089466,
+									"hostEdge": {
+										"$ref": "AAAAAAF26ya3Cxkel3s="
+									},
+									"edgePosition": 1,
+									"text": "Mendapatkan data keuangan"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26xysjhhl/Ec="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26ySIQhjGkxM="
+							},
+							"lineStyle": 2,
+							"points": "624:296;624:360",
+							"nameLabel": {
+								"$ref": "AAAAAAF26ya3CxkfHw0="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26ybAAxkn/KI=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26ybAAxklJoE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26ybAAxkoY7g=",
+									"_parent": {
+										"$ref": "AAAAAAF26ybAAxkn/KI="
+									},
+									"model": {
+										"$ref": "AAAAAAF26ybAAxklJoE="
+									},
+									"font": "Arial;13;0",
+									"left": 803,
+									"top": 561,
+									"width": 104.05712890625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26ybAAxkn/KI="
+									},
+									"edgePosition": 1,
+									"text": "Mengelola Proyek"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26yEVPBh4LIY="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26xpNDhhFg08="
+							},
+							"lineStyle": 2,
+							"points": "856:416;856:552;655:552",
+							"nameLabel": {
+								"$ref": "AAAAAAF26ybAAxkoY7g="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26ybepBkxcHM=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26ybepBkvkOs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26ybepBkyTOo=",
+									"_parent": {
+										"$ref": "AAAAAAF26ybepBkxcHM="
+									},
+									"model": {
+										"$ref": "AAAAAAF26ybepBkvkOs="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 568,
+									"width": 71.53173828125,
+									"height": 13,
+									"alpha": -3.8239087615713023,
+									"distance": 20.615528128088304,
+									"hostEdge": {
+										"$ref": "AAAAAAF26ybepBkxcHM="
+									},
+									"edgePosition": 1,
+									"text": "Input data"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26yMkuBiaUnI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26yEVPBh4LIY="
+							},
+							"lineStyle": 2,
+							"points": "576:558;368:558;368:416",
+							"nameLabel": {
+								"$ref": "AAAAAAF26ybepBkyTOo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26yb2yBk6WFY=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yb2yBk44g4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26yb2yRk75oc=",
+									"_parent": {
+										"$ref": "AAAAAAF26yb2yBk6WFY="
+									},
+									"model": {
+										"$ref": "AAAAAAF26yb2yBk44g4="
+									},
+									"font": "Arial;13;0",
+									"left": 383,
+									"top": 351,
+									"width": 148.85888671875,
+									"height": 13,
+									"alpha": -1.593264095714206,
+									"distance": 89.02246907382428,
+									"hostEdge": {
+										"$ref": "AAAAAAF26yb2yBk6WFY="
+									},
+									"edgePosition": 1,
+									"text": "Menampilkan data proyek"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26xx5nhhYFQ8="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26yMkuBiaUnI="
+							},
+							"lineStyle": 2,
+							"points": "368:384;368:328",
+							"nameLabel": {
+								"$ref": "AAAAAAF26yb2yRk75oc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26yb90BlDc7s=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yb90BlB9tk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26yb90BlEEdk=",
+									"_parent": {
+										"$ref": "AAAAAAF26yb90BlDc7s="
+									},
+									"model": {
+										"$ref": "AAAAAAF26yb90BlB9tk="
+									},
+									"font": "Arial;13;0",
+									"left": 375,
+									"top": 208,
+									"width": 162.60791015625,
+									"height": 13,
+									"alpha": 1.638872499563037,
+									"distance": 88.20430828479978,
+									"hostEdge": {
+										"$ref": "AAAAAAF26yb90BlDc7s="
+									},
+									"edgePosition": 1,
+									"text": "Melihat ruang lingkup usaha"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26xx5nhhYFQ8="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26xoNexg4aYE="
+							},
+							"lineStyle": 2,
+							"points": "368:184;368:256",
+							"nameLabel": {
+								"$ref": "AAAAAAF26yb90BlEEdk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26yckeBlRH1I=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yckeBlPB64="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26yckeBlSoPQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26yckeBlRH1I="
+									},
+									"model": {
+										"$ref": "AAAAAAF26yckeBlPB64="
+									},
+									"font": "Arial;13;0",
+									"left": 684,
+									"top": 415,
+									"width": 125.759765625,
+									"height": 13,
+									"alpha": -1.2627431330132006,
+									"distance": 23.08679276123039,
+									"hostEdge": {
+										"$ref": "AAAAAAF26yckeBlRH1I="
+									},
+									"edgePosition": 1,
+									"text": "Mendapatkan laporan"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26xpNDhhFg08="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26xysjhhl/Ec="
+							},
+							"lineStyle": 2,
+							"points": "671:400;808:400",
+							"nameLabel": {
+								"$ref": "AAAAAAF26yckeBlSoPQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26ydNXBle+mM=",
+							"_parent": {
+								"$ref": "AAAAAAF26xg4XBgyAl4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26ydNXBlcT+8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26ydNXBlf2N4=",
+									"_parent": {
+										"$ref": "AAAAAAF26ydNXBle+mM="
+									},
+									"model": {
+										"$ref": "AAAAAAF26ydNXBlcT+8="
+									},
+									"font": "Arial;13;0",
+									"left": 431,
+									"top": 416,
+									"width": 150.3251953125,
+									"height": 13,
+									"alpha": -1.661455763175951,
+									"distance": 22.090722034374522,
+									"hostEdge": {
+										"$ref": "AAAAAAF26ydNXBle+mM="
+									},
+									"edgePosition": 1,
+									"text": "Mendapatkan data proyek"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26xysjhhl/Ec="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26yMkuBiaUnI="
+							},
+							"lineStyle": 2,
+							"points": "432:400;584:400",
+							"nameLabel": {
+								"$ref": "AAAAAAF26ydNXBlf2N4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26xoNexg2u24=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "KLIEN",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26yb90BlB9tk=",
+							"_parent": {
+								"$ref": "AAAAAAF26xoNexg2u24="
+							},
+							"name": "Melihat ruang lingkup usaha",
+							"source": {
+								"$ref": "AAAAAAF26xoNexg2u24="
+							},
+							"target": {
+								"$ref": "AAAAAAF26xx5nhhWRH0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26xpNDhhDQcs=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "KARYAWAN",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26yaGfBj/0+o=",
+							"_parent": {
+								"$ref": "AAAAAAF26xpNDhhDQcs="
+							},
+							"name": "Mengelola Keuangan",
+							"source": {
+								"$ref": "AAAAAAF26xpNDhhDQcs="
+							},
+							"target": {
+								"$ref": "AAAAAAF26yG7jBiDqpU="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26ybAAxklJoE=",
+							"_parent": {
+								"$ref": "AAAAAAF26xpNDhhDQcs="
+							},
+							"name": "Mengelola Proyek",
+							"source": {
+								"$ref": "AAAAAAF26xpNDhhDQcs="
+							},
+							"target": {
+								"$ref": "AAAAAAF26yEVPBh2grk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26xx5nhhWRH0=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "Melihat ruang lingkup usaha",
+					"id": "1.0"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26xysjhhj+Yk=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "Membuat Laporan manajemen",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26yckeBlPB64=",
+							"_parent": {
+								"$ref": "AAAAAAF26xysjhhj+Yk="
+							},
+							"name": "Mendapatkan laporan",
+							"source": {
+								"$ref": "AAAAAAF26xysjhhj+Yk="
+							},
+							"target": {
+								"$ref": "AAAAAAF26xpNDhhDQcs="
+							}
+						}
+					],
+					"id": "4.0"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26yEVPBh2grk=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "Mengelola Proyek",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26ybepBkvkOs=",
+							"_parent": {
+								"$ref": "AAAAAAF26yEVPBh2grk="
+							},
+							"name": "Input data",
+							"source": {
+								"$ref": "AAAAAAF26yEVPBh2grk="
+							},
+							"target": {
+								"$ref": "AAAAAAF26yMkuBiYcbo="
+							}
+						}
+					],
+					"id": "2.0"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26yG7jBiDqpU=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "Mengelola Keuangan",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26yahWRkKsqU=",
+							"_parent": {
+								"$ref": "AAAAAAF26yG7jBiDqpU="
+							},
+							"name": "Input data",
+							"source": {
+								"$ref": "AAAAAAF26yG7jBiDqpU="
+							},
+							"target": {
+								"$ref": "AAAAAAF26ySIQRjEavA="
+							}
+						}
+					],
+					"id": "3.0"
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAF26yMkuBiYcbo=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "Data Proyek",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26yb2yBk44g4=",
+							"_parent": {
+								"$ref": "AAAAAAF26yMkuBiYcbo="
+							},
+							"name": "Menampilkan data proyek",
+							"source": {
+								"$ref": "AAAAAAF26yMkuBiYcbo="
+							},
+							"target": {
+								"$ref": "AAAAAAF26xx5nhhWRH0="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26ydNXBlcT+8=",
+							"_parent": {
+								"$ref": "AAAAAAF26yMkuBiYcbo="
+							},
+							"name": "Mendapatkan data proyek",
+							"source": {
+								"$ref": "AAAAAAF26yMkuBiYcbo="
+							},
+							"target": {
+								"$ref": "AAAAAAF26xysjhhj+Yk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAF26ySIQRjEavA=",
+					"_parent": {
+						"$ref": "AAAAAAF26xg4XBgxRvg="
+					},
+					"name": "Data Keuangan",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26ya3CxkcDEI=",
+							"_parent": {
+								"$ref": "AAAAAAF26ySIQRjEavA="
+							},
+							"name": "Mendapatkan data keuangan",
+							"source": {
+								"$ref": "AAAAAAF26ySIQRjEavA="
+							},
+							"target": {
+								"$ref": "AAAAAAF26xysjhhj+Yk="
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAF26ytwxRmPo3o=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel2",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAF26ytwxRmQjJ4=",
+					"_parent": {
+						"$ref": "AAAAAAF26ytwxRmPo3o="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26yt+8xmW1CE=",
+							"_parent": {
+								"$ref": "AAAAAAF26ytwxRmQjJ4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yt+8xmUX9s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yt+8xmXs6g=",
+									"_parent": {
+										"$ref": "AAAAAAF26yt+8xmW1CE="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 280,
+									"width": 117,
+									"height": 26,
+									"text": "Aplikasi CV Bangun Karya",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yt+8xmYZJY=",
+									"_parent": {
+										"$ref": "AAAAAAF26yt+8xmW1CE="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 253,
+									"width": 117,
+									"height": 13,
+									"text": "0.0"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 544,
+							"top": 248,
+							"width": 137,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26yt+8xmXs6g="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26yt+8xmYZJY="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26ywBQRmnGmg=",
+							"_parent": {
+								"$ref": "AAAAAAF26ytwxRmQjJ4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26ywBQRmlQ/Q="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26ywBQRmt1KM=",
+									"_parent": {
+										"$ref": "AAAAAAF26ywBQRmnGmg="
+									},
+									"font": "Arial;13;0",
+									"left": 570,
+									"top": 165,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26ywBQRmoOYY=",
+									"_parent": {
+										"$ref": "AAAAAAF26ywBQRmnGmg="
+									},
+									"font": "Arial;13;0",
+									"left": 570,
+									"top": 170,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "KLIEN",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26ywBQRmpkvw=",
+									"_parent": {
+										"$ref": "AAAAAAF26ywBQRmnGmg="
+									},
+									"font": "Arial;13;0",
+									"left": 56,
+									"top": -80,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 560,
+							"top": 160,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26ywBQRmoOYY="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26yxPABm4LWQ=",
+							"_parent": {
+								"$ref": "AAAAAAF26ytwxRmQjJ4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yxO/xm22Hw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yxPARm+Wyk=",
+									"_parent": {
+										"$ref": "AAAAAAF26yxPABm4LWQ="
+									},
+									"font": "Arial;13;0",
+									"left": 570,
+									"top": 389,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yxPABm5Rxo=",
+									"_parent": {
+										"$ref": "AAAAAAF26yxPABm4LWQ="
+									},
+									"font": "Arial;13;0",
+									"left": 570,
+									"top": 394,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "KARYAWAN",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26yxPABm6a6w=",
+									"_parent": {
+										"$ref": "AAAAAAF26yxPABm4LWQ="
+									},
+									"font": "Arial;13;0",
+									"left": -16,
+									"top": -96,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 560,
+							"top": 384,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26yxPABm5Rxo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26yyaCBnLjQc=",
+							"_parent": {
+								"$ref": "AAAAAAF26ytwxRmQjJ4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yyaCBnJEjU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26yyaCBnMk8U=",
+									"_parent": {
+										"$ref": "AAAAAAF26yyaCBnLjQc="
+									},
+									"model": {
+										"$ref": "AAAAAAF26yyaCBnJEjU="
+									},
+									"font": "Arial;13;0",
+									"left": 623,
+									"top": 213,
+									"width": 162.60791015625,
+									"height": 13,
+									"alpha": 1.5817845371273354,
+									"distance": 91.00549433962765,
+									"hostEdge": {
+										"$ref": "AAAAAAF26yyaCBnLjQc="
+									},
+									"edgePosition": 1,
+									"text": "Melihat ruang lingkup usaha"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26yt+8xmW1CE="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26ywBQRmnGmg="
+							},
+							"lineStyle": 2,
+							"points": "613:192;613:248",
+							"nameLabel": {
+								"$ref": "AAAAAAF26yyaCBnMk8U="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26yyj5hnUP0M=",
+							"_parent": {
+								"$ref": "AAAAAAF26ytwxRmQjJ4="
+							},
+							"model": {
+								"$ref": "AAAAAAF26yyj5hnSH60="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26yyj5hnVpkE=",
+									"_parent": {
+										"$ref": "AAAAAAF26yyj5hnUP0M="
+									},
+									"model": {
+										"$ref": "AAAAAAF26yyj5hnSH60="
+									},
+									"font": "Arial;13;0",
+									"left": 440,
+									"top": 344,
+									"width": 325.23486328125,
+									"height": 13,
+									"alpha": -4.712388686267043,
+									"distance": 10,
+									"hostEdge": {
+										"$ref": "AAAAAAF26yyj5hnUP0M="
+									},
+									"edgePosition": 1,
+									"text": "Mengelola proyek, keuangan, dan mendapatkan laporan"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26yt+8xmW1CE="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26yxPABm4LWQ="
+							},
+							"lineStyle": 2,
+							"points": "612:384;612:316",
+							"nameLabel": {
+								"$ref": "AAAAAAF26yyj5hnVpkE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26yt+8xmUX9s=",
+					"_parent": {
+						"$ref": "AAAAAAF26ytwxRmPo3o="
+					},
+					"name": "Aplikasi CV Bangun Karya",
+					"id": "0.0"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26ywBQRmlQ/Q=",
+					"_parent": {
+						"$ref": "AAAAAAF26ytwxRmPo3o="
+					},
+					"name": "KLIEN",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26yyaCBnJEjU=",
+							"_parent": {
+								"$ref": "AAAAAAF26ywBQRmlQ/Q="
+							},
+							"name": "Melihat ruang lingkup usaha",
+							"source": {
+								"$ref": "AAAAAAF26ywBQRmlQ/Q="
+							},
+							"target": {
+								"$ref": "AAAAAAF26yt+8xmUX9s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26yxO/xm22Hw=",
+					"_parent": {
+						"$ref": "AAAAAAF26ytwxRmPo3o="
+					},
+					"name": "KARYAWAN",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26yyj5hnSH60=",
+							"_parent": {
+								"$ref": "AAAAAAF26yxO/xm22Hw="
+							},
+							"name": "Mengelola proyek, keuangan, dan mendapatkan laporan",
+							"source": {
+								"$ref": "AAAAAAF26yxO/xm22Hw="
+							},
+							"target": {
+								"$ref": "AAAAAAF26yt+8xmUX9s="
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAF26y8YnRnhhow=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel3",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAF26y8YnRniLOU=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26y+72xnprPo=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26y+72hnn8Iw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26y+72xnvYxA=",
+									"_parent": {
+										"$ref": "AAAAAAF26y+72xnprPo="
+									},
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 77,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26y+72xnq7G0=",
+									"_parent": {
+										"$ref": "AAAAAAF26y+72xnprPo="
+									},
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 82,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "KLIEN",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26y+72xnrB+s=",
+									"_parent": {
+										"$ref": "AAAAAAF26y+72xnprPo="
+									},
+									"font": "Arial;13;0",
+									"left": 64,
+									"top": -152,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 440,
+							"top": 72,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26y+72xnq7G0="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26y/bIBn2Dac=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26y/bIBn09tI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26y/bIBn3ljU=",
+									"_parent": {
+										"$ref": "AAAAAAF26y/bIBn2Dac="
+									},
+									"font": "Arial;13;0",
+									"left": 314,
+									"top": 224,
+									"width": 85,
+									"height": 26,
+									"text": "Melihat riwayat proyek",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26y/bIBn4IrQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26y/bIBn2Dac="
+									},
+									"font": "Arial;13;0",
+									"left": 314,
+									"top": 197,
+									"width": 85,
+									"height": 13,
+									"text": "1.2"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 304,
+							"top": 192,
+							"width": 105,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26y/bIBn3ljU="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26y/bIBn4IrQ="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26zD71BoEchI=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zD70xoCd+Q="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zD71BoFQ8s=",
+									"_parent": {
+										"$ref": "AAAAAAF26zD71BoEchI="
+									},
+									"font": "Arial;13;0",
+									"left": 442,
+									"top": 232,
+									"width": 109,
+									"height": 26,
+									"text": "Melihat ruang lingkup usaha",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zD71BoGC1k=",
+									"_parent": {
+										"$ref": "AAAAAAF26zD71BoEchI="
+									},
+									"font": "Arial;13;0",
+									"left": 442,
+									"top": 205,
+									"width": 109,
+									"height": 13,
+									"text": "1.1"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 432,
+							"top": 200,
+							"width": 129,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zD71BoFQ8s="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26zD71BoGC1k="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26zGQARoWdos=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zGQARoUR1Q="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zGQARoXHdw=",
+									"_parent": {
+										"$ref": "AAAAAAF26zGQARoWdos="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 224,
+									"width": 54.18994140625,
+									"height": 39,
+									"text": "Melihat Kontak CV",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zGQARoYApI=",
+									"_parent": {
+										"$ref": "AAAAAAF26zGQARoWdos="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 197,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "1.3"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 192,
+							"width": 74.18994140625,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zGQARoXHdw="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26zGQARoYApI="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26zIMNxokAcI=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zIMOBoqmak=",
+									"_parent": {
+										"$ref": "AAAAAAF26zIMNxokAcI="
+									},
+									"font": "Arial;13;0",
+									"left": 338,
+									"top": 357,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zIMNxolmvk=",
+									"_parent": {
+										"$ref": "AAAAAAF26zIMNxokAcI="
+									},
+									"font": "Arial;13;0",
+									"left": 338,
+									"top": 362,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Data Proyek",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zIMNxomFCY=",
+									"_parent": {
+										"$ref": "AAAAAAF26zIMNxokAcI="
+									},
+									"font": "Arial;13;0",
+									"left": -96,
+									"top": -24,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 328,
+							"top": 352,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zIMNxolmvk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zIq0RoypN8=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zIq0BowB/w="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zIq0Rozu6Q=",
+									"_parent": {
+										"$ref": "AAAAAAF26zIq0RoypN8="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zIq0BowB/w="
+									},
+									"font": "Arial;13;0",
+									"left": 447,
+									"top": 136,
+									"width": 162.60791015625,
+									"height": 13,
+									"alpha": 1.815774722764912,
+									"distance": 41.23105625617661,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zIq0RoypN8="
+									},
+									"edgePosition": 1,
+									"text": "Melihat ruang lingkup usaha"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zD71BoEchI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26y+72xnprPo="
+							},
+							"lineStyle": 2,
+							"points": "488:104;488:200",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zIq0Rozu6Q="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zI+fxo9YRo=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zI+fxo7aG8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zI+fxo+i3k=",
+									"_parent": {
+										"$ref": "AAAAAAF26zI+fxo9YRo="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zI+fxo7aG8="
+									},
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 71,
+									"width": 129.3271484375,
+									"height": 13,
+									"alpha": -2.761087234700537,
+									"distance": 10.770329614269007,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zI+fxo9YRo="
+									},
+									"edgePosition": 1,
+									"text": "Melihat riwayat proyek"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26y/bIBn2Dac="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26y+72xnprPo="
+							},
+							"lineStyle": 2,
+							"points": "440:88;356:88;356:192",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zI+fxo+i3k="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zJIqhpGtzg=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zJIqhpERCw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zJIqhpHMpQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26zJIqhpGtzg="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zJIqhpERCw="
+									},
+									"font": "Arial;13;0",
+									"left": 600,
+									"top": 71,
+									"width": 83.82080078125,
+									"height": 13,
+									"alpha": -2.1587993341887595,
+									"distance": 18.027756377319946,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zJIqhpGtzg="
+									},
+									"edgePosition": 1,
+									"text": "Melihat kontak"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zGQARoWdos="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26y+72xnprPo="
+							},
+							"lineStyle": 2,
+							"points": "546:88;656:88;656:192",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zJIqhpHMpQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zJfRBpSd60=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zJfQxpQR40="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zJfRBpTymU=",
+									"_parent": {
+										"$ref": "AAAAAAF26zJfRBpSd60="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zJfQxpQR40="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 361,
+									"top": 299,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zJfRBpSd60="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26y/bIBn2Dac="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zIMNxokAcI="
+							},
+							"lineStyle": 2,
+							"points": "376:352;376:260",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zJfRBpTymU="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26zNJahpdz/M=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zNJahpjJlk=",
+									"_parent": {
+										"$ref": "AAAAAAF26zNJahpdz/M="
+									},
+									"font": "Arial;13;0",
+									"left": 578,
+									"top": 613,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zNJahpekIE=",
+									"_parent": {
+										"$ref": "AAAAAAF26zNJahpdz/M="
+									},
+									"font": "Arial;13;0",
+									"left": 578,
+									"top": 618,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "KARYAWAN",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zNJahpf25E=",
+									"_parent": {
+										"$ref": "AAAAAAF26zNJahpdz/M="
+									},
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 80,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 568,
+							"top": 608,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zNJahpekIE="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26zNhDBpqdF8=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zNhDBpoKGk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zNhDBpr8Ko=",
+									"_parent": {
+										"$ref": "AAAAAAF26zNhDBpqdF8="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 448,
+									"width": 77.30810546875,
+									"height": 26,
+									"text": "Memasukkan data proyek",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zNhDBps8DY=",
+									"_parent": {
+										"$ref": "AAAAAAF26zNhDBpqdF8="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 421,
+									"width": 77.30810546875,
+									"height": 13,
+									"text": "2.1"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 416,
+							"width": 97.30810546875,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zNhDBpr8Ko="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26zNhDBps8DY="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26zQ3xhp9lKA=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zQ3xhp7lJU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zQ3xhp+Rgc=",
+									"_parent": {
+										"$ref": "AAAAAAF26zQ3xhp9lKA="
+									},
+									"font": "Arial;13;0",
+									"left": 330,
+									"top": 528,
+									"width": 75.8544921875,
+									"height": 39,
+									"text": "Melihat riwayat proyek",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zQ3xhp/kEg=",
+									"_parent": {
+										"$ref": "AAAAAAF26zQ3xhp9lKA="
+									},
+									"font": "Arial;13;0",
+									"left": 330,
+									"top": 501,
+									"width": 75.8544921875,
+									"height": 13,
+									"text": "2.2"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 320,
+							"top": 496,
+							"width": 95.8544921875,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zQ3xhp+Rgc="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26zQ3xhp/kEg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zSelBqQQNc=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zSelBqOTx0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zSelRqRcaI=",
+									"_parent": {
+										"$ref": "AAAAAAF26zSelBqQQNc="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zSelBqOTx0="
+									},
+									"font": "Arial;13;0",
+									"left": 143,
+									"top": 632,
+									"width": 148.8525390625,
+									"height": 13,
+									"alpha": -3.605239619733293,
+									"distance": 15.652475842498529,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zSelBqQQNc="
+									},
+									"edgePosition": 1,
+									"text": "Memasukkan data proyek"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zNhDBpqdF8="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zNJahpdz/M="
+							},
+							"lineStyle": 2,
+							"points": "568:624;224:624;224:484",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zSelRqRcaI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zSsHBqaGWA=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zSsHBqYlng="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zSsHBqbuuM=",
+									"_parent": {
+										"$ref": "AAAAAAF26zSsHBqaGWA="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zSsHBqYlng="
+									},
+									"font": "Arial;13;0",
+									"left": 134,
+									"top": 347,
+									"width": 180.6669921875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zSsHBqaGWA="
+									},
+									"edgePosition": 1,
+									"text": "Memasukkan data ke database"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zIMNxokAcI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zNhDBpqdF8="
+							},
+							"lineStyle": 2,
+							"points": "224:416;224:368;328:368",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zSsHBqbuuM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zTPahqnHig=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zTPaRql4Qo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zTPahqo/go=",
+									"_parent": {
+										"$ref": "AAAAAAF26zTPahqnHig="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zTPaRql4Qo="
+									},
+									"font": "Arial;13;0",
+									"left": 375,
+									"top": 591,
+									"width": 129.3271484375,
+									"height": 13,
+									"alpha": -1.2286402722430059,
+									"distance": 77.4919350642375,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zTPahqnHig="
+									},
+									"edgePosition": 1,
+									"text": "Melihat riwayat proyek"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zQ3xhp9lKA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zNJahpdz/M="
+							},
+							"lineStyle": 2,
+							"points": "568:624;367:624;367:577",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zTPahqo/go="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zU5vxq2vpQ=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zU5vxq0Om0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zU5vxq3SfA=",
+									"_parent": {
+										"$ref": "AAAAAAF26zU5vxq2vpQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zU5vxq0Om0="
+									},
+									"font": "Arial;13;0",
+									"left": 295,
+									"top": 431,
+									"width": 150.3251953125,
+									"height": 13,
+									"alpha": -1.8925475597637174,
+									"distance": 6.324555320336759,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zU5vxq2vpQ="
+									},
+									"edgePosition": 1,
+									"text": "Mendapatkan data proyek"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zQ3xhp9lKA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zIMNxokAcI="
+							},
+							"lineStyle": 2,
+							"points": "376:384;376:496",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zU5vxq3SfA="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26zW4rhrKMUA=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zW4rRrIUec="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zW4rhrLoWQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26zW4rhrKMUA="
+									},
+									"font": "Arial;13;0",
+									"left": 1002,
+									"top": 432,
+									"width": 77.30810546875,
+									"height": 39,
+									"text": "Memasukkan data keuangan",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zW4rhrMl1o=",
+									"_parent": {
+										"$ref": "AAAAAAF26zW4rhrKMUA="
+									},
+									"font": "Arial;13;0",
+									"left": 1002,
+									"top": 405,
+									"width": 77.30810546875,
+									"height": 13,
+									"text": "3.1"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 992,
+							"top": 400,
+							"width": 97.30810546875,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zW4rhrLoWQ="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26zW4rhrMl1o="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF26zh9uBsQCfg=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zh9txsOvKw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zh9uRsWFQE=",
+									"_parent": {
+										"$ref": "AAAAAAF26zh9uBsQCfg="
+									},
+									"font": "Arial;13;0",
+									"left": 866,
+									"top": 349,
+									"width": 93,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zh9uBsRwZQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26zh9uBsQCfg="
+									},
+									"font": "Arial;13;0",
+									"left": 866,
+									"top": 354,
+									"width": 93,
+									"height": 13,
+									"text": "Data Keuangan",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zh9uBsSMAY=",
+									"_parent": {
+										"$ref": "AAAAAAF26zh9uBsQCfg="
+									},
+									"font": "Arial;13;0",
+									"left": 256,
+									"top": -24,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 856,
+							"top": 344,
+							"width": 113,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zh9uBsRwZQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26ziznxsiGl0=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26ziznxsguZI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26ziznxsjaU8=",
+									"_parent": {
+										"$ref": "AAAAAAF26ziznxsiGl0="
+									},
+									"model": {
+										"$ref": "AAAAAAF26ziznxsguZI="
+									},
+									"font": "Arial;13;0",
+									"left": 941,
+									"top": 632,
+									"width": 166.943359375,
+									"height": 13,
+									"alpha": -3.993558601098372,
+									"distance": 21.2602916254693,
+									"hostEdge": {
+										"$ref": "AAAAAAF26ziznxsiGl0="
+									},
+									"edgePosition": 1,
+									"text": "Memasukkan data keuangan"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zW4rhrKMUA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zNJahpdz/M="
+							},
+							"lineStyle": 2,
+							"points": "674:624;1040:624;1040:481",
+							"nameLabel": {
+								"$ref": "AAAAAAF26ziznxsjaU8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zi8txsrkUI=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zi8txspMsE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zi8txssKLw=",
+									"_parent": {
+										"$ref": "AAAAAAF26zi8txsrkUI="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zi8txspMsE="
+									},
+									"font": "Arial;13;0",
+									"left": 991,
+									"top": 344,
+									"width": 180.6669921875,
+									"height": 13,
+									"alpha": 3.342909721980435,
+									"distance": 50.00999900019995,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zi8txsrkUI="
+									},
+									"edgePosition": 1,
+									"text": "Memasukkan data ke database"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zh9uBsQCfg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zW4rhrKMUA="
+							},
+							"lineStyle": 2,
+							"points": "1032:400;1032:360;968:360",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zi8txssKLw="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26znwaxtVmVY=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26znwaxtThoM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26znwaxtWIoU=",
+									"_parent": {
+										"$ref": "AAAAAAF26znwaxtVmVY="
+									},
+									"font": "Arial;13;0",
+									"left": 746,
+									"top": 552,
+									"width": 85,
+									"height": 26,
+									"text": "Mencari harga bahan baku",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26znwaxtXEzo=",
+									"_parent": {
+										"$ref": "AAAAAAF26znwaxtVmVY="
+									},
+									"font": "Arial;13;0",
+									"left": 746,
+									"top": 525,
+									"width": 85,
+									"height": 13,
+									"text": "3.2"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 736,
+							"top": 520,
+							"width": 105,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26znwaxtWIoU="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26znwaxtXEzo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zoufxtlvDQ=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zoufhtjFM0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zoufxtmxh0=",
+									"_parent": {
+										"$ref": "AAAAAAF26zoufxtlvDQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zoufhtjFM0="
+									},
+									"font": "Arial;13;0",
+									"left": 684,
+									"top": 600,
+									"width": 154.66064453125,
+									"height": 13,
+									"alpha": -5.317933546211929,
+									"distance": 31.622776601683793,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zoufxtlvDQ="
+									},
+									"edgePosition": 1,
+									"text": "Mencari harga bahan baku"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26znwaxtVmVY="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zNJahpdz/M="
+							},
+							"lineStyle": 2,
+							"points": "674:624;788:624;788:588",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zoufxtmxh0="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26zp//Rtw5L4=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zp//Rtua8Y="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zp//htxDjo=",
+									"_parent": {
+										"$ref": "AAAAAAF26zp//Rtw5L4="
+									},
+									"font": "Arial;13;0",
+									"left": 874,
+									"top": 472,
+									"width": 57.10986328125,
+									"height": 39,
+									"text": "Melihat neraca keuangan",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zp//htylwM=",
+									"_parent": {
+										"$ref": "AAAAAAF26zp//Rtw5L4="
+									},
+									"font": "Arial;13;0",
+									"left": 874,
+									"top": 445,
+									"width": 57.10986328125,
+									"height": 13,
+									"text": "3.3"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 440,
+							"width": 77.10986328125,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zp//htxDjo="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26zp//htylwM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zqzaht+TPs=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zqzaht8xe0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zqzaht/1IQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26zqzaht+TPs="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zqzaht8xe0="
+									},
+									"font": "Arial;13;0",
+									"left": 904,
+									"top": 568,
+									"width": 85.26806640625,
+									"height": 13,
+									"alpha": -0.7216548664915283,
+									"distance": 66.60330322138685,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zqzaht+TPs="
+									},
+									"edgePosition": 1,
+									"text": "Melihat neraca"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zp//Rtw5L4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zNJahpdz/M="
+							},
+							"lineStyle": 2,
+							"points": "674:624;902:624;902:521",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zqzaht/1IQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26zuKkhuhPDo=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zuKkRufpcw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26zuKkxuilhs=",
+									"_parent": {
+										"$ref": "AAAAAAF26zuKkhuhPDo="
+									},
+									"model": {
+										"$ref": "AAAAAAF26zuKkRufpcw="
+									},
+									"font": "Arial;13;0",
+									"left": 863,
+									"top": 401,
+									"width": 111.30615234375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26zuKkhuhPDo="
+									},
+									"edgePosition": 1,
+									"text": "Mendapatkan data "
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zp//Rtw5L4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zh9uBsQCfg="
+							},
+							"lineStyle": 2,
+							"points": "904:376;904:440",
+							"nameLabel": {
+								"$ref": "AAAAAAF26zuKkxuilhs="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26zxHOhusRBk=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26zxHOhuq/Vc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zxHOhutn9I=",
+									"_parent": {
+										"$ref": "AAAAAAF26zxHOhusRBk="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 368,
+									"width": 77.314453125,
+									"height": 39,
+									"text": "Menampilkan rekap data proyek",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26zxHOxuuVes=",
+									"_parent": {
+										"$ref": "AAAAAAF26zxHOhusRBk="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 341,
+									"width": 77.314453125,
+									"height": 13,
+									"text": "4.1"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 544,
+							"top": 336,
+							"width": 97.314453125,
+							"height": 95,
+							"nameLabel": {
+								"$ref": "AAAAAAF26zxHOhutn9I="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26zxHOxuuVes="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26z3nChu7rtE=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26z3nChu5o4M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26z3nChu88eA=",
+									"_parent": {
+										"$ref": "AAAAAAF26z3nChu7rtE="
+									},
+									"font": "Arial;13;0",
+									"left": 674,
+									"top": 368,
+									"width": 77.314453125,
+									"height": 39,
+									"text": "Menampilkan rekap data keuangan",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26z3nChu91XQ=",
+									"_parent": {
+										"$ref": "AAAAAAF26z3nChu7rtE="
+									},
+									"font": "Arial;13;0",
+									"left": 674,
+									"top": 341,
+									"width": 77.314453125,
+									"height": 13,
+									"text": "4.2"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 664,
+							"top": 336,
+							"width": 97.314453125,
+							"height": 95,
+							"nameLabel": {
+								"$ref": "AAAAAAF26z3nChu88eA="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26z3nChu91XQ="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF26z5IbxvJBXI=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26z5IbxvHAEA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26z5IbxvKlPM=",
+									"_parent": {
+										"$ref": "AAAAAAF26z5IbxvJBXI="
+									},
+									"font": "Arial;13;0",
+									"left": 586,
+									"top": 512,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Membuat laporan",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF26z5IbxvLWSE=",
+									"_parent": {
+										"$ref": "AAAAAAF26z5IbxvJBXI="
+									},
+									"font": "Arial;13;0",
+									"left": 586,
+									"top": 485,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "4.3"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 576,
+							"top": 480,
+							"width": 74.18994140625,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF26z5IbxvKlPM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF26z5IbxvLWSE="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26z8ECRviXVU=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26z8EBxvgfk8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26z8ECRvjZyg=",
+									"_parent": {
+										"$ref": "AAAAAAF26z8ECRviXVU="
+									},
+									"model": {
+										"$ref": "AAAAAAF26z8EBxvgfk8="
+									},
+									"font": "Arial;13;0",
+									"left": 444,
+									"top": 347,
+									"width": 90.32080078125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26z8ECRviXVU="
+									},
+									"edgePosition": 1,
+									"text": "Membuat rekap"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zxHOhusRBk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zIMNxokAcI="
+							},
+							"lineStyle": 2,
+							"points": "434:368;544:368",
+							"nameLabel": {
+								"$ref": "AAAAAAF26z8ECRvjZyg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26z8LnRvrHOc=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26z8LnRvpaeY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26z8LnhvsSfI=",
+									"_parent": {
+										"$ref": "AAAAAAF26z8LnRvrHOc="
+									},
+									"model": {
+										"$ref": "AAAAAAF26z8LnRvpaeY="
+									},
+									"font": "Arial;13;0",
+									"left": 762,
+									"top": 377,
+									"width": 90.32080078125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26z8LnRvrHOc="
+									},
+									"edgePosition": 1,
+									"text": "Mempuat rekap"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26z3nChu7rtE="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zh9uBsQCfg="
+							},
+							"lineStyle": 2,
+							"points": "856:368;760:368",
+							"nameLabel": {
+								"$ref": "AAAAAAF26z8LnhvsSfI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26z8flBv2Guo=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26z8flBv03ZI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26z8flBv3AVM=",
+									"_parent": {
+										"$ref": "AAAAAAF26z8flBv2Guo="
+									},
+									"model": {
+										"$ref": "AAAAAAF26z8flBv03ZI="
+									},
+									"font": "Arial;13;0",
+									"left": 503,
+									"top": 447,
+									"width": 80.95166015625,
+									"height": 13,
+									"alpha": -1.5912020616446327,
+									"distance": 49.01020301937138,
+									"hostEdge": {
+										"$ref": "AAAAAAF26z8flBv2Guo="
+									},
+									"edgePosition": 1,
+									"text": "Append rekap"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26z5IbxvJBXI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26zxHOhusRBk="
+							},
+							"lineStyle": 2,
+							"points": "592:430;592:480",
+							"nameLabel": {
+								"$ref": "AAAAAAF26z8flBv3AVM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26z8vyhwBFKg=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26z8vyhv/j/U="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26z8vyhwCKL8=",
+									"_parent": {
+										"$ref": "AAAAAAF26z8vyhwBFKg="
+									},
+									"model": {
+										"$ref": "AAAAAAF26z8vyhv/j/U="
+									},
+									"font": "Arial;13;0",
+									"left": 719,
+									"top": 456,
+									"width": 80.95166015625,
+									"height": 13,
+									"alpha": 3.8708699285725108,
+									"distance": 63.0317380372777,
+									"hostEdge": {
+										"$ref": "AAAAAAF26z8vyhwBFKg="
+									},
+									"edgePosition": 1,
+									"text": "Append rekap"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26z5IbxvJBXI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26z3nChu7rtE="
+							},
+							"lineStyle": 2,
+							"points": "712:430;712:504;649:504",
+							"nameLabel": {
+								"$ref": "AAAAAAF26z8vyhwCKL8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF26z9EExwMwtk=",
+							"_parent": {
+								"$ref": "AAAAAAF26y8YnRniLOU="
+							},
+							"model": {
+								"$ref": "AAAAAAF26z9EEhwKdpc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF26z9EExwN04w=",
+									"_parent": {
+										"$ref": "AAAAAAF26z9EExwMwtk="
+									},
+									"model": {
+										"$ref": "AAAAAAF26z9EEhwKdpc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 571,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF26z9EExwMwtk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF26zNJahpdz/M="
+							},
+							"tail": {
+								"$ref": "AAAAAAF26z5IbxvJBXI="
+							},
+							"lineStyle": 2,
+							"points": "615:548;615:608",
+							"nameLabel": {
+								"$ref": "AAAAAAF26z9EExwN04w="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26y+72hnn8Iw=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "KLIEN",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zIq0BowB/w=",
+							"_parent": {
+								"$ref": "AAAAAAF26y+72hnn8Iw="
+							},
+							"name": "Melihat ruang lingkup usaha",
+							"source": {
+								"$ref": "AAAAAAF26y+72hnn8Iw="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zD70xoCd+Q="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zI+fxo7aG8=",
+							"_parent": {
+								"$ref": "AAAAAAF26y+72hnn8Iw="
+							},
+							"name": "Melihat riwayat proyek",
+							"source": {
+								"$ref": "AAAAAAF26y+72hnn8Iw="
+							},
+							"target": {
+								"$ref": "AAAAAAF26y/bIBn09tI="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zJIqhpERCw=",
+							"_parent": {
+								"$ref": "AAAAAAF26y+72hnn8Iw="
+							},
+							"name": "Melihat kontak",
+							"source": {
+								"$ref": "AAAAAAF26y+72hnn8Iw="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zGQARoUR1Q="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26y/bIBn09tI=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Melihat riwayat proyek",
+					"id": "1.2"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26zD70xoCd+Q=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Melihat ruang lingkup usaha",
+					"id": "1.1"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26zGQARoUR1Q=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Melihat Kontak CV",
+					"id": "1.3"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26zIMNxoi0X8=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Data Proyek",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zJfQxpQR40=",
+							"_parent": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							},
+							"source": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							},
+							"target": {
+								"$ref": "AAAAAAF26y/bIBn09tI="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zU5vxq0Om0=",
+							"_parent": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							},
+							"name": "Mendapatkan data proyek",
+							"source": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zQ3xhp7lJU="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26z8EBxvgfk8=",
+							"_parent": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							},
+							"name": "Membuat rekap",
+							"source": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zxHOhuq/Vc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26zNJahpbXIY=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "KARYAWAN",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zSelBqOTx0=",
+							"_parent": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"name": "Memasukkan data proyek",
+							"source": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zNhDBpoKGk="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zTPaRql4Qo=",
+							"_parent": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"name": "Melihat riwayat proyek",
+							"source": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zQ3xhp7lJU="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26ziznxsguZI=",
+							"_parent": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"name": "Memasukkan data keuangan",
+							"source": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zW4rRrIUec="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zoufhtjFM0=",
+							"_parent": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"name": "Mencari harga bahan baku",
+							"source": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF26znwaxtThoM="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zqzaht8xe0=",
+							"_parent": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"name": "Melihat neraca",
+							"source": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zp//Rtua8Y="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26zNhDBpoKGk=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Memasukkan data proyek",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zSsHBqYlng=",
+							"_parent": {
+								"$ref": "AAAAAAF26zNhDBpoKGk="
+							},
+							"name": "Memasukkan data ke database",
+							"source": {
+								"$ref": "AAAAAAF26zNhDBpoKGk="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zIMNxoi0X8="
+							}
+						}
+					],
+					"id": "2.1"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26zQ3xhp7lJU=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Melihat riwayat proyek",
+					"id": "2.2"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26zW4rRrIUec=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Memasukkan data keuangan",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zi8txspMsE=",
+							"_parent": {
+								"$ref": "AAAAAAF26zW4rRrIUec="
+							},
+							"name": "Memasukkan data ke database",
+							"source": {
+								"$ref": "AAAAAAF26zW4rRrIUec="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zh9txsOvKw="
+							}
+						}
+					],
+					"id": "3.1"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF26zh9txsOvKw=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Data Keuangan",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26zuKkRufpcw=",
+							"_parent": {
+								"$ref": "AAAAAAF26zh9txsOvKw="
+							},
+							"name": "Mendapatkan data ",
+							"source": {
+								"$ref": "AAAAAAF26zh9txsOvKw="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zp//Rtua8Y="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26z8LnRvpaeY=",
+							"_parent": {
+								"$ref": "AAAAAAF26zh9txsOvKw="
+							},
+							"name": "Mempuat rekap",
+							"source": {
+								"$ref": "AAAAAAF26zh9txsOvKw="
+							},
+							"target": {
+								"$ref": "AAAAAAF26z3nChu5o4M="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26znwaxtThoM=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Mencari harga bahan baku",
+					"id": "3.2"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26zp//Rtua8Y=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Melihat neraca keuangan",
+					"id": "3.3"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26zxHOhuq/Vc=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Menampilkan rekap data proyek",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26z8flBv03ZI=",
+							"_parent": {
+								"$ref": "AAAAAAF26zxHOhuq/Vc="
+							},
+							"name": "Append rekap",
+							"source": {
+								"$ref": "AAAAAAF26zxHOhuq/Vc="
+							},
+							"target": {
+								"$ref": "AAAAAAF26z5IbxvHAEA="
+							}
+						}
+					],
+					"id": "4.1"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26z3nChu5o4M=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Menampilkan rekap data keuangan",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26z8vyhv/j/U=",
+							"_parent": {
+								"$ref": "AAAAAAF26z3nChu5o4M="
+							},
+							"name": "Append rekap",
+							"source": {
+								"$ref": "AAAAAAF26z3nChu5o4M="
+							},
+							"target": {
+								"$ref": "AAAAAAF26z5IbxvHAEA="
+							}
+						}
+					],
+					"id": "4.2"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF26z5IbxvHAEA=",
+					"_parent": {
+						"$ref": "AAAAAAF26y8YnRnhhow="
+					},
+					"name": "Membuat laporan",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF26z9EEhwKdpc=",
+							"_parent": {
+								"$ref": "AAAAAAF26z5IbxvHAEA="
+							},
+							"source": {
+								"$ref": "AAAAAAF26z5IbxvHAEA="
+							},
+							"target": {
+								"$ref": "AAAAAAF26zNJahpbXIY="
+							}
+						}
+					],
+					"id": "4.3"
+				}
+			]
+		}
+	]
+}
