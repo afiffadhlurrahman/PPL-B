@@ -256,7 +256,7 @@
 											"font": "Arial;13;1",
 											"left": 405,
 											"top": 207,
-											"width": 253.97607421875,
+											"width": 264.798828125,
 											"height": 13,
 											"text": "MaterialPrice"
 										},
@@ -291,7 +291,7 @@
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 200,
-									"width": 263.97607421875,
+									"width": 274.798828125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF25oaZJV/Su1g="
@@ -328,7 +328,7 @@
 											"font": "Arial;13;0",
 											"left": 405,
 											"top": 230,
-											"width": 253.97607421875,
+											"width": 264.798828125,
 											"height": 13,
 											"text": "-matAPI: MaterialAPI",
 											"horizontalAlignment": 0
@@ -345,7 +345,7 @@
 											"font": "Arial;13;0",
 											"left": 405,
 											"top": 245,
-											"width": 253.97607421875,
+											"width": 264.798828125,
 											"height": 13,
 											"text": "-httpRequest: HTTPRequest",
 											"horizontalAlignment": 0
@@ -354,7 +354,7 @@
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 225,
-									"width": 263.97607421875,
+									"width": 274.798828125,
 									"height": 38
 								},
 								{
@@ -379,16 +379,16 @@
 											"font": "Arial;13;0",
 											"left": 405,
 											"top": 268,
-											"width": 253.97607421875,
+											"width": 264.798828125,
 											"height": 13,
-											"text": "+getItemList(String item, String output): void",
+											"text": "+getItemList(String item, String output): JSON",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 263,
-									"width": 263.97607421875,
+									"width": 274.798828125,
 									"height": 23
 								},
 								{
@@ -428,7 +428,7 @@
 							"containerChangeable": true,
 							"left": 400,
 							"top": 200,
-							"width": 263.97607421875,
+							"width": 274.798828125,
 							"height": 86,
 							"nameCompartment": {
 								"$ref": "AAAAAAF25oaZJV/R/Ns="
@@ -894,7 +894,7 @@
 											"top": 492,
 											"width": 225.76708984375,
 											"height": 13,
-											"text": "+sendGET(HashMap params): void",
+											"text": "+sendGET(HashMap params): JSON",
 											"horizontalAlignment": 0
 										},
 										{
@@ -911,7 +911,7 @@
 											"top": 507,
 											"width": 225.76708984375,
 											"height": 13,
-											"text": "+sendPOST(HashMap params): void",
+											"text": "+sendPOST(HashMap params): JSON",
 											"horizontalAlignment": 0
 										}
 									],
@@ -997,7 +997,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 710,
+									"left": 716,
 									"top": 248,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1018,7 +1018,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 710,
+									"left": 716,
 									"top": 263,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1039,7 +1039,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 711,
+									"left": 717,
 									"top": 218,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1123,7 +1123,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 688,
+									"left": 699,
 									"top": 247,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1143,7 +1143,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 691,
+									"left": 702,
 									"top": 261,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -1163,7 +1163,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 684,
+									"left": 695,
 									"top": 220,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -1208,7 +1208,7 @@
 							"tail": {
 								"$ref": "AAAAAAF25oXTdV+bKhE="
 							},
-							"points": "760:239;663:239",
+							"points": "760:239;674:239",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF25owv9WDcVMA="
@@ -1885,8 +1885,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF25og2pGALrEQ="
 									},
-									"name": "String item",
-									"type": ""
+									"name": "String item"
 								},
 								{
 									"_type": "UMLParameter",
@@ -1894,8 +1893,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF25og2pGALrEQ="
 									},
-									"name": "String output",
-									"type": ""
+									"name": "String output"
 								},
 								{
 									"_type": "UMLParameter",
@@ -1903,7 +1901,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF25og2pGALrEQ="
 									},
-									"type": "void",
+									"type": "JSON",
 									"direction": "return"
 								}
 							]
@@ -2158,8 +2156,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF25osx3GC7PCM="
 									},
-									"name": "HashMap params",
-									"type": ""
+									"name": "HashMap params"
 								},
 								{
 									"_type": "UMLParameter",
@@ -2167,7 +2164,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF25osx3GC7PCM="
 									},
-									"type": "void",
+									"type": "JSON",
 									"direction": "return"
 								}
 							]
@@ -2186,8 +2183,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF25ouSt2DGues="
 									},
-									"name": "HashMap params",
-									"type": ""
+									"name": "HashMap params"
 								},
 								{
 									"_type": "UMLParameter",
@@ -2195,7 +2191,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF25ouSt2DGues="
 									},
-									"type": "void",
+									"type": "JSON",
 									"direction": "return"
 								}
 							]
